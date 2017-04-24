@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Beacon Transmitter</string>
+    <string name="title_uuid">UUID</string>
+    <string name="title_major_value">Major Value</string>
+    <string name="title_minor_value">Minor Value</string>
+    <string name="title_beacon_format">Beacon Format</string>
+    <string name="hint_uuid">94339309-bfe2-4807-b747-9aee23508620</string>
+    <string name="hint_major_value">8</string>
+    <string name="_hint_minor_value">2</string>
+    <string name="start_advertising">Start Advertising</string>
+    <string name="apply">Apply Changes</string>
+</resources>

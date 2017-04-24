@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/items_inbetween_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/items_inbetween_margin"
+    tools:context="droidmentor.beacontransmitter.BeaconTransmitterActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/title_uuid"
+            style="@style/HeaderStyle"/>
+
+        <EditText
+            android:id="@+id/et_uuid"
+            style="@style/InputEditText"
+            android:hint="@string/hint_uuid" />
+
+        <TextView
+            android:text="@string/title_major_value"
+            style="@style/HeaderStyle"/>
+
+        <EditText
+            android:id="@+id/et_major"
+            style="@style/InputEditText"
+            android:inputType="number"
+            android:hint="@string/hint_major_value" />
+
+        <TextView
+            android:text="@string/title_minor_value"
+            style="@style/HeaderStyle" />
+
+        <EditText
+            android:id="@+id/et_minor"
+            style="@style/InputEditText"
+            android:inputType="number"
+            android:hint="@string/_hint_minor_value" />
+
+        <TextView
+            android:text="@string/title_beacon_format"
+            style="@style/HeaderStyle" />
+
+        <Spinner
+            android:layout_marginTop="@dimen/items_inbetween_margin"
+            android:id="@+id/spinner_lang"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:spinnerMode="dropdown"/>
+
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/btn_transmit"
+            android:layout_marginTop="10dp"
+            android:text="@string/start_advertising" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:id="@+id/btn_apply"
+            android:enabled="false"
+            android:layout_marginTop="10dp"
+            android:text="@string/apply" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

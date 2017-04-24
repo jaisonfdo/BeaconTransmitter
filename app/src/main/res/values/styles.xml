@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Input Field EditText-->
+
+    <style name="InputEditText">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:layout_marginTop">@dimen/items_inbetween_margin</item>
+        <item name="android:paddingLeft">@dimen/items_inbetween_margin</item>
+        <item name="android:background">@drawable/bg_inputfield</item>
+        <item name="android:layout_centerVertical">true</item>
+
+    </style>
+
+    <!--CTA Button Style-->
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/nav_header_titleText</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!--Header Style-->
+
+    <style name="HeaderStyle">
+        <item name="android:layout_marginTop">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginLeft">@dimen/items_inbetween_margin</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+
+    </style>
+
+
+
+</resources>
